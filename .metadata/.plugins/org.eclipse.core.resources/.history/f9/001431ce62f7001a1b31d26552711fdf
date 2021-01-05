@@ -1,0 +1,28 @@
+import org.omg.Messaging.SyncScopeHelper;
+
+import Files.Payloads;
+import io.restassured.path.json.JsonPath;
+
+public class ComplexJsonParse {
+
+	public static void main(String[] args) {
+		
+		JsonPath js = new JsonPath(Payloads.CoursePrice());
+		
+		//Print no. of courses returned by API
+		int count = js.getInt("courses.size()");
+		System.out.println(count);
+		
+		//Print purchase amount
+		int purchaseAmt = js.getInt("dashboard.purchaseAmount");
+		System.out.println(purchaseAmt);
+		
+		//Print 1st course title
+		String title = js.get("courses[0]");
+		System.out.println(title);
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,9 @@
+20:19:13.134 [main] FATAL beta.demo1 - Log fatal
+20:19:30.089 [main] DEBUG alpha.demo - Log debug
+20:19:30.105 [main] INFO  alpha.demo - Log info
+20:19:30.105 [main] ERROR alpha.demo - Log Error
+20:19:30.105 [main] FATAL alpha.demo - Log fatal
+20:19:45.135 [main] DEBUG beta.demo1 - Log debug
+20:19:45.135 [main] INFO  beta.demo1 - Log info
+20:19:45.135 [main] ERROR beta.demo1 - Log Error
+20:19:45.135 [main] FATAL beta.demo1 - Log fatal

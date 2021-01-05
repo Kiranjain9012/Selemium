@@ -1,0 +1,16 @@
+import org.testng.annotations.Test;
+
+public class DynamicJson {
+	
+	@Test
+	public String addBook() {
+		
+		return "{\r\n" + 
+				"    \"name\": \"Learn Appium Automation with Java\",\r\n" + 
+				"    \"isbn\": \"bczd\",\r\n" + 
+				"    \"aisle\": \"227\",\r\n" + 
+				"    \"author\": \"John foe\"\r\n" + 
+				"}";
+	}
+
+}

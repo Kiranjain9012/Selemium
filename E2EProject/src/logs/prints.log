@@ -1,0 +1,4 @@
+20:46:09.046 [TestNG-tests-2] INFO  resources.base - Navigation Bar is Displayed
+20:46:09.313 [TestNG-tests-3] INFO  resources.base - Sucessfully validated to Title text
+20:46:11.006 [TestNG-tests-1] INFO  resources.base - Able to provide uname and password
+20:46:13.558 [TestNG-tests-1] INFO  resources.base - Able to provide uname and password

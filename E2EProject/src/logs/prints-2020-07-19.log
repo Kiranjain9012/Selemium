@@ -1,0 +1,6 @@
+20:44:32.578 [TestNG-tests-1] INFO  resources.base - Able to provide uname and password
+20:44:35.574 [TestNG-tests-3] INFO  resources.base - Sucessfully navigated to Home page
+20:44:36.526 [TestNG-tests-1] INFO  resources.base - Able to provide uname and password
+20:44:36.546 [TestNG-tests-3] INFO  resources.base - Sucessfully validated to Title text
+20:46:04.645 [TestNG-tests-3] INFO  resources.base - Driver is initialized
+20:46:09.002 [TestNG-tests-3] INFO  resources.base - Sucessfully navigated to Home page
